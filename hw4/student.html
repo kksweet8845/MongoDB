@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Look up Web</title>
+    <meta>
+  </head>
+  <body>
+    <button type = "submit" id = "listBtn">List all students</button>
+    <h1 id = "listOutput"></h1>
+    <form id="searchStudent">
+      Student ID: <input type="text" name = "studentId"><br>
+      <button type = "submit" id="searchBtn">search specific student</button><br>
+      <h1 id = "searchOutput"></h1>
+    </form>
+    <form id = "addStudent">
+      student ID: <input type = "text" name = "studentId"><br>
+      student name: <input type= "text" name = "studentName"><br>
+      <button type = "submit" id="addBtn">Add new Student</button><br>
+      <h1 id = "addOutput"></h1>
+    </form>
+    <form id = "delStudent">
+      student ID: <input type = "text" name = "studentId"><br>
+      <button type = "submit"id = "delBtn">Delete specific student</button><br>
+      <h1 id = "delOutput"></h1>
+    </form>
+    <script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src = "student.js"></script>
+  </body>
+</html>
